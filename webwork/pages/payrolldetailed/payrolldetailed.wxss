@@ -1,0 +1,149 @@
+/* 会员中心工资单详细页部分样式 */
+/* 背景盒子里的第一部分 */
+.backimgbox{
+  background-color: green;
+  border-radius: 8rpx;
+  margin: 24rpx;
+  background-image: url('image/backimg.png')
+}
+.boxincontent{
+  display: flex;
+  color: rgb(255, 255, 255);
+}
+.boxincontent image{
+  width: 32rpx;
+  height: 28rpx;
+  margin: 22rpx;
+  padding-top: 4rpx;
+}
+.boxincontent text{
+  margin-top: 22rpx;
+  font-size: 28rpx;
+  flex: 2;
+}
+.btnbox{
+  border: 2rpx solid rgb(255, 255, 255);
+  border-radius: 8rpx;
+  font-size: 26rpx;
+  margin-top: 11rpx;
+  padding: 14rpx;
+  margin-right: 22rpx;
+  margin-bottom: 11rpx;
+}
+/* 第一部分分隔线 */
+.backimgline{
+  border-top: 2rpx solid rgb(255, 255, 255);
+  margin: 0 22rpx;
+}
+/* 第二部分内容样式 */
+/* 左 */
+.left{
+  margin: 24rpx auto;
+}
+.left-top{
+  /* margin: auto 24rpx; */
+  text-align: center;
+  font-size: 28rpx;
+}
+.left-down{
+  display: flex;
+  /* margin: 0 auto; */
+  text-align: center;
+  font-size: 24rpx;
+}
+.left-one{
+  margin-top: 24rpx;
+  margin-right: 24rpx;
+}
+.left-two{
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+}
+/* 中间分隔线 */
+.linecontent{
+  border-left: 2rpx solid rgb(194, 225, 153);
+  margin: 24rpx 0;
+}
+/* 右 */
+.right{
+  margin: 24rpx auto;
+}
+.right-top{
+  /* margin: 0 auto; */
+  text-align: center;
+  font-size: 28rpx;
+}
+.right-down{
+  display: flex;
+  /* margin: 0 auto; */
+  text-align: center;
+  font-size: 24rpx;
+}
+.right-one{
+  margin-top: 24rpx;
+  margin-right: 24rpx;
+}
+.right-two{
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+}
+
+
+/* 工资明细样式 */
+.rightbtnbox{
+  /* display: flex; */
+  font-size: 24rpx;
+  color: rgb(102, 102, 102);
+  flex: 1;
+  margin-top: 12rpx;
+  padding-bottom: 28rpx;
+  margin-right: 24rpx;
+}
+.rightbtnbox text{
+  font-size: 24rpx;
+  color: rgb(102, 102, 102);
+}
+.rightV{
+  font-size: 36rpx;
+  color: rgb(102, 102, 102);
+  padding-left: 3rpx;
+  position: relative;
+  top: 4rpx;
+}
+
+/* 工资列表循环样式 */
+.boxlist{
+  margin: auto 24rpx;
+  border-bottom: 2rpx solid rgb(225, 225, 225);
+  display: flex;
+}
+.first{
+  margin: 22rpx;
+}
+.first image{
+  width: 76rpx;
+  height: 36rpx;
+}
+.second{
+  flex: 5;
+  font-size: 20rpx;
+  color: rgb(102, 102, 102);
+  margin: auto 0;
+  position: relative;
+  top: -2rpx;
+}
+.third{
+  flex: 1;
+  margin: auto 0;
+  position: relative;
+  top: -6rpx;
+  text-align: right;
+}
+.price{
+  font-size: 30rpx;
+  color: rgb(101, 166, 7);
+}
+.company{
+  font-size: 18rpx;
+  color: rgb(153, 153, 153);
+}

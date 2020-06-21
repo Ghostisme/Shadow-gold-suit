@@ -1,0 +1,17 @@
+<!-- 金额组件 -->
+
+<view class='container'>
+  <!-- 与表头的分隔线 -->
+  <view class='linenav'></view>
+  <view class='contentbox'>
+    <!-- 金额背景盒子 -->
+    <view class='backiamge'>
+      <!-- 内容 -->
+      <view class='contentbox'>
+        <slot name="diyi"></slot>
+        <slot name="dier"></slot>
+        <slot name="disan"></slot>
+      </view>
+    </view>
+  </view>
+</view>

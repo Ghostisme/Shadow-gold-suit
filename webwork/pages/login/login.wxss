@@ -1,0 +1,149 @@
+/* banner样式 */
+.banner{
+  width: 750rpx;
+  height: 346rpx;
+}
+/* content样式 */
+/* name样式 */
+.name{
+  border: 1rpx solid #dedede;
+  border-radius: 6rpx;
+  height: 88rpx;
+  width: 658rpx;
+  margin: 0 auto;
+  margin-bottom: 28rpx;
+  display: flex;
+  align-items: center;
+}
+.name image{
+  width: 44rpx;
+  height: 44rpx;
+  display: inline-block;
+  margin-left: 50rpx;
+}
+.name input{
+  display: inline-block;
+  color: #777777;
+  font-size: 28rpx;
+  margin-left: 46rpx;
+  text-align: left;
+}
+/* IDnumber样式 */
+.IDnumber{
+  border: 1rpx solid #dedede;
+  border-radius: 6rpx;
+  height: 88rpx;
+  width: 658rpx;
+  margin: 0 auto;
+  margin-bottom: 28rpx;
+  display: flex;
+  align-items: center;
+}
+.IDnumber image{
+  width: 44rpx;
+  height: 44rpx;
+  display: inline-block;
+  margin-left: 50rpx;
+}
+.IDnumber input{
+  display: inline-block;
+  color: #777777;
+  font-size: 28rpx;
+  margin-left: 46rpx;
+  text-align: left;
+}
+/* phone样式 */
+.phone{
+  border: 1rpx solid #dedede;
+  border-radius: 6rpx;
+  height: 88rpx;
+  width: 658rpx;
+  margin: 0 auto;
+  margin-bottom: 28rpx;
+  display: flex;
+  align-items: center;
+}
+.phone image{
+  width: 44rpx;
+  height: 44rpx;
+  display: inline-block;
+  margin-left: 50rpx;
+}
+.phone input{
+  display: inline-block;
+  color: #777777;
+  font-size: 28rpx;
+  margin-left: 46rpx;
+  text-align: left;
+}
+/* phonenum样式 */
+.phonenum{
+  border: 1rpx solid #dedede;
+  border-radius: 6rpx;
+  height: 88rpx;
+  width: 658rpx;
+  margin: 0 auto;
+  margin-bottom: 28rpx;
+  display: flex;
+  align-items: center;
+}
+.phonenum .numico{
+  width: 44rpx;
+  height: 44rpx;
+  display: inline-block;
+  margin-left: 50rpx;
+}
+.phonenum input{
+  display: inline-block;
+  color: #777777;
+  font-size: 28rpx;
+  margin-left: 46rpx;
+  text-align: left;
+}
+.phonenum .numtext{
+  display:inline-block;
+  float:right;
+  color:#6ea900;
+  font-size: 24rpx;
+  border: 1px solid #60ad00;
+  border-radius: 4rpx;
+  width: 200rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  /* margin-top: 14rpx;  */
+  margin-right: 10rpx;
+}
+/* agreement样式 */
+.agreement{
+  margin: 0 auto;
+  height: 88rpx;
+  width: 658rpx;
+  padding-left: 22%;
+  padding-top: 10rpx;
+}
+/* 勾选框样式 */
+.agreement checkbox{
+  zoom:50%;
+  width: 48rpx;
+  height: 48rpx;
+} 
+.agreement text{
+  display: inline-block;
+  font-size: 24rpx;
+  color: #999999;
+  vertical-align: middle;
+  line-height: 28rpx;
+  padding-left: 10rpx;
+  margin-top: 10rpx;
+}
+/* agreementbtn样式 */
+.agreementbtn{
+  width: 486rpx;
+  height: 88rpx;
+  color: #ffffff;
+  font-size: 28rpx;
+  line-height: 88rpx;
+  vertical-align: middle;
+  background: linear-gradient(to right, #6fc800, #5ea900); 
+}

@@ -1,0 +1,54 @@
+/* 会员中心之历史查询内容循环组件样式 */
+/* 最外层盒子分隔线 */
+.contentbox{
+  border-bottom: 2rpx solid rgb(224, 224, 224);
+}
+/* 内容样式 */
+/* 左侧图片样式 */
+.box{
+  display: flex;
+}
+.onebox{
+  flex: 1;
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+}
+.onebox image{
+  width: 76rpx;
+  height: 36rpx;
+}
+/* 左侧信息样式 */
+.twobox{
+  flex: 8;
+}
+.twobox view{
+  font-size: 32rpx;
+  color: rgb(51, 51, 51);
+}
+.top{
+  margin-left: 22rpx;
+  margin-top: 24rpx;
+  margin-bottom: 22rpx;
+}
+.bottom{
+  margin-left: 22rpx;
+  margin-bottom: 22rpx;
+}
+/* 右侧时间样式 */
+.threebox{
+  flex: 7;
+}
+.threebox view{
+  font-size: 28rpx;
+  color: rgb(153, 153, 153);
+}
+.righttop{
+  text-align: right;
+  margin-top: 26rpx;
+  margin-bottom: 26rpx;
+  margin-right: 24rpx;
+}
+.rightbottom{
+  margin-bottom: 22rpx;
+  margin-right: 24rpx;
+}

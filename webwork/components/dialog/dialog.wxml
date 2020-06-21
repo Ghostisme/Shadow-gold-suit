@@ -1,0 +1,24 @@
+<!--components/dialog/dialog.wxml-->
+<view class='wx_dialog_container' hidden="{{!isShow}}">
+    <view class='wx-mask'></view>
+    <view class='wx-dialog'>
+        <view class='wx-dialog-title'>
+          <view class='bacck'>
+            <view class='dingwei'>
+              <image class='title-1' src='{{ title1 }}'></image>
+            </view>
+            <text class='title-2'>{{ title2 }}</text>
+          </view>
+        <!-- {{ title }} -->
+        </view>
+        <view class='wx-dialog-content'>
+          <view class='content-1'>{{ content1 }}</view>
+          <view class='content-2'>{{ content2 }}</view>
+        <!-- {{ content }} -->
+        </view>
+        <view class='wx-dialog-footer'>
+          <view class='wx-dialog-btn' catchtap='_cancelEvent'>{{ cancelText }}</view>
+          <view class='wx-dialog-btn' catchtap='_confirmEvent' bindtap='sumbitten'>{{ confirmText }}</view>
+        </view>
+    </view>
+</view>

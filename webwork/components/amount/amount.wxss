@@ -1,0 +1,20 @@
+/* 金额组件样式 */
+/* 顶部菜单分割线 */
+.linenav{
+  width: 100%;
+  height: 20rpx;
+  background-color:rgba(0,0,0,0.1);
+}
+
+/* 组件内容盒子 */
+.contentbox{
+  margin: 24rpx;
+}
+/* 背景盒子 */
+.backiamge{
+  background-color: green;
+  border-radius: 8rpx;
+}
+.contentbox{
+  margin: 30rpx;
+}

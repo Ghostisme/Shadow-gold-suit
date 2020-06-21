@@ -1,0 +1,22 @@
+/* pages/index/index.wxss */
+/* button{
+  width: 300rpx;
+  float: left;
+  margin: 0 auto;
+  margin-top: 400rpx;
+} */
+.box{
+  /* display: flex; */
+  margin: 50rpx;
+}
+.box view{
+  border: 2rpx solid darkcyan;
+  width: 120rpx;
+  height: 120rpx;
+  display: inline;
+  margin: 10rpx 10rpx;
+  float: left;
+  vertical-align: middle;
+  font-size: 30rpx;
+  text-align: center;
+}

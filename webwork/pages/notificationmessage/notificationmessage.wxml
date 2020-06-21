@@ -1,0 +1,39 @@
+<!-- 通知消息页 -->
+
+<mumberinnav navtext="通知消息"></mumberinnav>
+<view class='container'>
+  <view class='content-list'>
+    <!-- 列表事件 -->
+    <view class='timebox'>
+      <text>11:59</text>
+    </view>
+  </view>
+  <!-- 内容盒子 -->
+  <view class='outsidebox'>
+    <view class='contentbox'>
+      <!-- 1 -->
+      <view class='first'>
+        <!-- one -->
+        <view class='one-text'>
+          <text>2018年12月充值VIP优惠活动!!!</text>
+        </view>
+        <!-- two -->
+        <view class='two-text'>
+          <text>11月25日</text>
+        </view>
+        <!-- three -->
+        <view class='three-text'>
+          <text>2018年12月1日至15日,充值VIP赠时长活动开始啦,赶快参加!</text>
+        </view>
+      </view>
+      <!-- 2分隔线 -->
+      <view class='line'></view>
+      <!-- 3 -->
+      <view class='third'>
+        <text class='lefttext'>详情</text>
+        <!-- <text class='righttext'>></text> -->
+        <icon class="iconfont icon-youjiantou jiantou"></icon>
+      </view>
+    </view>
+  </view>
+</view>

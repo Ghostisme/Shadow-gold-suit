@@ -1,0 +1,47 @@
+/* 顶部图片样式 */
+.navimgbox image{
+  width: 100%;
+  height: 380rpx;
+}
+/* 内容样式 */
+.box{
+  margin: 20rpx 60rpx;
+  background-image: url('image/contentback.png')
+}
+.listback{
+  margin: 30rpx auto;
+  display: flex;
+  /* justify-content: center; */
+  background-color: #cccccc;
+}
+.left{
+  font-size: 28rpx;
+  flex: 2;
+  /* margin: 24rpx 40rpx; */
+  /* margin-left: 60rpx;  */
+  margin: auto 40rpx;
+}
+.up{
+  color: rgb(51, 51, 51);
+  display: block;  
+}
+.down{
+  color: rgb(100, 169, 0);
+}
+.right{
+  flex: 5;
+  margin: 40rpx 40rpx;
+}
+.right image{
+  width: 56rpx;
+  height: 52rpx;
+  position: relative;
+  top: 4rpx;
+}
+.right text{
+  font-size: 30rpx;
+  color: rgb(102, 102, 102);
+  position: relative;
+  top: -12rpx;
+  padding-left: 40rpx;
+}

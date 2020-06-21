@@ -1,0 +1,55 @@
+<!--leo-->
+<view class="container">
+  <!-- nav -->
+  <view class="nav">
+    <!-- banner -->
+    <image src='image/banner.jpg' class='banner'></image>
+  </view>
+  <!-- center -->
+  <view class="center">
+    <!-- name -->
+    <view class="name">
+      <!-- namico -->
+      <image src='image/vectorintelligentobject3.png'></image>
+      <!-- namipu -->
+      <input placeholder='姓名' id='namipt' bindinput='namiput' bindreset="cleanInput" type='string'></input>
+    </view>
+    <!-- IDnumber -->
+    <view class='IDnumber'>
+      <!-- IDico -->
+      <image src='image/vectorintelligentobject4.png'></image>
+      <!-- IDipu -->
+      <input placeholder='120225199001124569'  type='string'></input>
+    </view>
+    <!-- phone -->
+    <view class='phone'>
+      <!-- phico -->
+      <image src='image/vectorintelligentobject5.png'></image>
+      <!-- phipu -->
+      <input placeholder='手机号' type='nummber'></input>
+    </view>
+    <!-- phonenum -->
+    <view class='phonenum'>
+      <!-- numico -->
+      <!-- <view class='numico'></view> -->
+      <image src='image/vectorintelligentobject6.png' class='numico'></image>
+      <!-- numipu -->
+      <input  placeholder='验证码' placeholder-class='top' type='nummber'></input>
+      <!-- numbtn -->
+      <view class='numtext' bindtap="getMsg" wx:if="{{showMsg}}">{{msg}}</view>
+      <view class='numtext' wx:if="{{!showMsg}}">{{msg}}</view>
+    </view>
+  </view>
+  <!-- bottom -->
+  <view class="bottom">
+    <!-- agreement -->
+    <view class='agreement'>
+      <!-- agreementcheck -->
+      <checkbox></checkbox>
+      <!-- agreementtext -->
+      <text>我已阅读并同意《小袋助手用户协议》</text>
+    </view>
+    <!-- agreementbtn -->
+    <button class='agreementbtn'>下一步</button>
+  </view>
+</view>

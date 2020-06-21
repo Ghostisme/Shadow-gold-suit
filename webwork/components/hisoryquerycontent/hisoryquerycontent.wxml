@@ -1,0 +1,33 @@
+<!--会员中心之历史查询内容循环组件-->
+
+<view class='container'>
+  <!-- 内容外盒子 -->
+  <view class='contentbox'>
+    <!-- 内容盒子做弹性 -->
+    <view class='box'>
+      <!-- 左侧图片 -->
+      <view class='onebox'>
+        <image src='{{navimg}}'></image>
+      </view>
+      <!-- 左侧名称 -->
+      <view class='twobox'>
+        <view class='top'>
+          <text>{{lefttext}}</text>
+        </view>
+        <view class='bottom'>
+          <text>{{leftnum}}</text>
+        </view>
+      </view>
+      <!-- 右侧时间 -->
+      <view class='threebox'>
+        <view class='righttop'>
+          <text>{{rightday}}</text>
+        </view>
+        <view class='rightbottom'>
+          <text>{{righttime}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

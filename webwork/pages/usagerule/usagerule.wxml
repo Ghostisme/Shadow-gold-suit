@@ -1,0 +1,24 @@
+<!--使用规则页-->
+
+<mumberinnav navtext="使用规则"></mumberinnav>
+<view class='container'>
+  <view class='conbox'>
+    <!-- 1 -->
+    <view class='oneb'>
+      <text>小袋助手使用规则</text>
+    </view>
+    <!-- 2 -->
+    <view class='twob'>
+      <text class='two-1'>小袋助手</text>
+      <text class='two-2'>2018-11-28</text>
+    </view>
+    <!-- 3 -->
+    <view class='threeb'>
+      <text>小袋助手使用规则1</text>
+      <text style='word-wrap: break-word;word-break: keep-all;'>小袋助手使用规则1</text>
+      <text>小袋助手使用规则1</text>
+      <text>小袋助手使用规则1</text>
+      <text>小袋助手使用规则1</text>
+    </view>
+  </view>
+</view>

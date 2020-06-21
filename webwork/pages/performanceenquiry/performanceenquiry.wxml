@@ -1,0 +1,213 @@
+<!--业绩查询页-->
+
+<mumberinnav navtext="我的业绩">
+  <view class='rightext'>
+    <text>全部</text>
+    <icon class='iconfont icon-xiajiantou1'></icon>
+  </view>
+</mumberinnav>
+<!-- 柱状图 -->
+<view class='container'>
+  <!-- 背景 -->
+  <view class='backCor'>
+    <!-- 左箭头 -->
+    <view class='left'>
+      <icon class="iconfont icon-zuojiantou"></icon>
+    </view>
+    <!-- 图表 -->
+    <view class="container1" id='canvasbox'>
+      <text class='canvastext'>查询数量</text>
+      <ff-canvas id="column-dom" canvas-id="column" opts="{{ opts }}"></ff-canvas>
+    </view>
+    <!-- 右箭头 -->
+    <view class='right'>
+      <icon class="iconfont icon-youjiantou"></icon>
+    </view>
+  </view>
+</view>
+<!-- 业绩查询内容列表 -->
+<view class='container'>
+  <view class='contentbox'>
+    <view class='timebox'>
+      <text>10-09</text>
+    </view>
+    <view class='numbox-1'>
+      <!-- zuo -->
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>查询总数</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>490</text>
+        </view>
+      </view>
+      <!-- you -->
+      <view class='imgcont'>
+        <image src='image/downicon.png' style='width:16rpx;height:20rpx;'></image>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>标准版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>280</text>
+        </view>
+      </view>
+      <!-- you -->
+      <view class='imgcont'>
+        <image src='image/downicon.png' style='width:16rpx;height:20rpx;'></image>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>专业版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>210</text>
+        </view>
+      </view>
+      <!-- you -->
+      <view class='imgcont'>
+        <image src='image/upicon.png' style='width:16rpx;height:20rpx;'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='contentbox'>
+    <view class='timebox'>
+      <text>10-08</text>
+    </view>
+    <view class='numbox-1'>
+      <!-- zuo -->
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>查询总数</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>510</text>
+        </view>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>标准版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>310</text>
+        </view>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>专业版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>200</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='contentbox'>
+    <view class='timebox'>
+      <text>10-07</text>
+    </view>
+    <view class='numbox-1'>
+      <!-- zuo -->
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>查询总数</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>470</text>
+        </view>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>标准版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>280</text>
+        </view>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>专业版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>190</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='contentbox'>
+    <view class='timebox'>
+      <text>10-06</text>
+    </view>
+    <view class='numbox-1'>
+      <!-- zuo -->
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>查询总数</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>550</text>
+        </view>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>标准版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>300</text>
+        </view>
+      </view>
+    </view>
+    <view class='numbox-1'>
+      <view class='numcont'>
+        <!-- shang -->
+        <view class='title-top'>
+          <text>专业版</text>
+        </view>
+        <!-- xia -->
+        <view class='title-num'>
+          <text>250</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

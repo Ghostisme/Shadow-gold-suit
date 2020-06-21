@@ -1,0 +1,70 @@
+<!--联系客服页-->
+<mumberinnav navtext="联系客服"></mumberinnav>
+<view class='container'>
+  <!-- 顶部图片 -->
+  <view class='navimgbox'>
+    <image src='image/navimg.png'></image>
+  </view>
+  <!-- 联系客服内容 -->
+  <view class='box'>
+    <!-- 1 -->
+    <view class='listback'>
+      <!-- 左 -->
+      <view class='left'>
+        <view class='up'>
+          <text>商务合作</text>
+        </view>
+        <view class='down'>
+          <text>联系电话</text>
+        </view>
+      </view>
+      <!-- 右 -->
+      <view class='right'>
+        <image src='image/icon3.png'></image>
+        <text>18522776821</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='box'>
+    <!-- 1 -->
+    <view class='listback'>
+      <!-- 左 -->
+      <view class='left'>
+        <view class='up'>
+          <text>小袋助手</text>
+        </view>
+        <view class='down'>
+          <text>官方客服</text>
+        </view>
+      </view>
+      <!-- 右 -->
+      <view class='right'>
+        <image src='image/icon2.png'></image>
+        <text>022-58956346</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='box'>
+    <!-- 1 -->
+    <view class='listback'>
+      <!-- 左 -->
+      <view class='left'>
+        <view class='up'>
+          <text>小袋助手</text>
+        </view>
+        <view class='down'>
+          <text>官方微信</text>
+        </view>
+      </view>
+      <!-- 右 -->
+      <view class='right'>
+        <image src='image/icon1.png'></image>
+        <text>xiaodaizhushou</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+

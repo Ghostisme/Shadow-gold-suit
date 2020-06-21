@@ -1,0 +1,6 @@
+{  
+  "usingComponents": {
+    "mynavassembly": "../../components/mynavassembly/mynavassembly",
+    "tarbar-bottom": "../../components/tarbar-bottom/tarbar-bottom"
+  }
+}

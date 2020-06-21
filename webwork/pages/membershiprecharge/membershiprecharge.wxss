@@ -1,0 +1,175 @@
+/* vipnav样式 */
+.linenav{
+  width: 100%;
+  height: 20rpx;
+  background-color:rgba(0,0,0,0.1);
+}
+.vipnav{
+  display: flex;
+}
+.backimg{
+  /* background-image: url(image/组3@2x.png); */
+  width: 740rpx;
+  background-image: url('https://pan.baidu.com/disk/home?errno=0&errmsg=Auth Login Sucess&&bduss=&ssnerror=0&traceid=#/all?vmode=list&path=%2Fimg');
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 10rpx;
+}
+.firstline{
+  display: flex;
+  align-items: center;
+  margin-bottom: 24rpx;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+.firstline image{
+  width: 46rpx;
+  height: 44rpx;
+  padding-left: 10rpx;
+}
+.firstline text{
+  color: rgb(254, 254, 254);
+  font-size: 30rpx;
+}
+.secline{
+  display: flex;
+  align-items: center;
+  margin-bottom: 56rpx;
+  margin-left: 30rpx;
+}
+.secline text{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24rpx;
+}
+.thirline{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  margin-left: 30rpx;
+}
+.thirline text{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24rpx;
+}
+/* vipcontent样式 */
+.firsconline{
+  margin-top: 52rpx;
+  margin-bottom: 40rpx;
+}
+.firsconline text{
+  font-size: 28rpx;
+  color: rgb(102, 102, 102);
+  margin-left: 15rpx;
+  margin-top: 104rpx;
+}
+
+.firbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 24rpx; */
+}
+.leftbox{
+  border: 2rpx solid #cdcdcd;
+  border-radius: 10rpx;
+  /* margin-left: 20rpx; */
+  margin: 24rpx;
+}
+.leftboxfir{
+  /* margin: 48rpx 68rpx 28rpx 68rpx; */
+  /* margin: 68rpx; */
+  margin: 50rpx;
+  width: 220rpx;
+  text-align: center;
+}
+.rmbtext{
+  color: rgb(153, 153, 153);
+  font-size: 24rpx;
+}
+.lighttext{
+  color: rgb(255, 102, 0);
+  font-family: "Gadugi-Bold";
+  font-weight: bolder;
+  font-size: 60rpx;
+  padding-left: 8rpx;
+  padding-right: 10rpx;
+}
+.leftboxsec{
+  text-align: center;
+  margin-bottom: 17rpx;
+  align-items: center;
+  display: none;
+}
+.outline{
+  width: 280rpx;
+  margin: 0 auto;
+  border-top: 1rpx dashed rgb(221, 221, 221);
+}
+.leftboxsec .rmbtext{
+  text-align: center;
+}
+.leftboxthi{
+  float: right;
+  background-color: rgb(255, 0, 0);
+  width: 240rpx;
+  border-radius: 4rpx;
+  font-size: 24rpx;
+  text-align: center;
+  margin-top: -15rpx;
+  margin-right: -10rpx;
+  padding: 5rpx 0;
+}
+.on{
+  color: rgb(255, 255, 255);
+  font-family: "AdobeHeitiStd-Regular";
+}
+.rightbox{
+  border: 2rpx solid #cdcdcd;
+  border-radius: 10rpx;
+  margin: 24rpx;
+  /* margin-left: 0; */
+  /* margin-left: 20rpx; */
+}
+.rightboxfir{
+  /* margin: 48rpx 68rpx 28rpx 68rpx; */
+  /* margin: 68rpx; */
+  margin: 50rpx;
+  width: 220rpx;
+  text-align: center;
+}
+/* secbox样式 */
+.secbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lefbox{
+  border: 2rpx solid #cdcdcd;
+  border-radius: 10rpx;
+  margin: 24rpx;
+  /* margin-left: 20rpx; */
+}
+.rigbox{
+  border: 2rpx solid #cdcdcd;
+  border-radius: 10rpx;
+  margin: 24rpx;
+  /* margin-left: 20rpx; */
+}
+.rightboxfir1{
+  /* margin: 48rpx 68rpx 28rpx 68rpx; */
+  /* margin: 68rpx; */
+  margin: 50rpx 30rpx;
+  width: 260rpx;
+  text-align: center;
+}
+
+/* btn样式 */
+.thirline button{
+  color: rgb(255, 255, 255);
+  font-size: 30rpx;
+  width: 400rpx;
+  padding: 5rpx 0;
+  margin-top: 10rpx;
+  background: linear-gradient(to right, #6fc800, #5ea900); 
+}

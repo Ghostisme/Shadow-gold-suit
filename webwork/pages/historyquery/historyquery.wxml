@@ -1,0 +1,9 @@
+<!--会员中心历史查询页-->
+  <mumberinnav navtext="历史查询"></mumberinnav>
+  <!-- 内容列表循环项 -->  
+  <mumberincontent></mumberincontent>
+  <mumberincontent navimg="image/standardedition.png" rightday="保留24天" ></mumberincontent>
+  <mumberincontent></mumberincontent>
+  <mumberincontent navimg="image/standardedition.png" rightday="保留24天" ></mumberincontent>
+  <mumberincontent></mumberincontent>
+  <mumberincontent navimg="image/standardedition.png" rightday="保留24天" ></mumberincontent>

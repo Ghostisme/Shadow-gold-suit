@@ -1,0 +1,27 @@
+<!-- leo-->
+<view class='mybac'>
+  <!-- head -->
+  <image src='image/name.jpg' class='head'></image>
+  <!-- name -->
+  <view class='name'>
+    <view class='namefirst'>
+      <text>蒋小口袋</text>
+      <image src='image/VIP.png'></image>
+    </view>
+    <view class='namesecond'>
+      <text>到期时间：</text>
+      <text>2018/11/12</text>
+    </view>
+    <view class='namethird'>
+      <text>ID:</text>
+      <text>100101</text>
+    </view>
+  </view>
+  <!-- code -->
+  <view class='code'>    
+    <image src='image/two-dimensioncode.png'></image>  
+    <!-- <text>></text>   -->
+    <!-- <icon class="iconfont icon-youjiantou jiantou"></icon> -->
+    <slot></slot>
+  </view>
+</view>

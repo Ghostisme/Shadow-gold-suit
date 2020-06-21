@@ -1,0 +1,109 @@
+/* 业绩查询页样式 */
+.rightext{
+  color: rgb(102, 102, 102);
+  margin-top: 10rpx;
+}
+.rightext text{
+  font-size: 24rpx;
+}
+.rightext icon{
+  font-size: 32rpx;
+  margin-right: 24rpx;
+  position: relative;
+  top: 4rpx;
+}
+/* 柱状图 */
+.backCor{
+  background-color: #f4f4f4;
+  height: 550rpx;
+  display: flex;
+}
+.left{
+  margin: auto 0;
+}
+.left icon{
+  /* font-size: 128rpx; */
+  color: #bebebe;
+}
+.right{
+  margin: auto 0;
+}
+.right icon{
+  /* font-size: 128rpx; */
+  color: #bebebe;
+}
+.canvastext{
+  font-size: 24rpx;
+  width: 48rpx;
+  display: flex;
+  color: rgb(148, 147, 147);
+  position: relative;
+  float: left;
+  left: -22rpx;
+  top: 100rpx;
+}
+/* 柱状图引入组件样式 */
+.container1{
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box; */
+  
+}
+#column-dom{
+  width: 624rpx;
+  height: 500rpx;
+  position: relative;
+  top: -40rpx;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+/* 内容样式 */
+.contentbox{
+  display: flex;
+  border-bottom: 2rpx solid rgb(225, 225, 225);
+}
+.timebox{
+  font-size: 24rpx;
+  color: rgb(153, 153, 153);
+  flex: 1;
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+  margin-bottom: 48rpx;
+}
+.numbox-1{
+  flex: 2;
+  font-size: 24rpx;
+  display: flex;
+  margin-top: 24rpx;
+  margin-left: 24rpx;
+}
+.numcont{
+  text-align: center;
+  margin-right: 12rpx;
+}
+.title-top{
+  color: rgb(153, 153, 153);
+}
+.title-num{
+  color: rgb(51, 51, 51);
+}
+.imgcont{
+  margin: auto 2rpx;
+}
+
+

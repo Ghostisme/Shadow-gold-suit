@@ -1,0 +1,38 @@
+/* @import "pages/template/template.wxss"; */
+@font-face {
+  font-family: 'iconfont';  /* project id 518032 */
+  src: url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.eot');
+  src: url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_518032_t2q88z3jok8iwwmi.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:60rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-zuojiantou:before{
+  content: '\e736';
+}
+.icon-youjiantou:before{
+  content: '\e735';
+}
+.icon-shangjiantou:before{
+  content: '\e734';
+}
+.icon-xiajiantou1:before{
+  content: '\e733';
+}
+.icon-xiajiantou:before{
+  content: '\e6cc';
+}
+/* 全局样式 */
+.container{
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  font-family: "MicrosoftYaHei";
+}

@@ -1,0 +1,27 @@
+<!--通知消息详情页-->
+
+<mumberinnav navtext="通知消息"></mumberinnav>
+<view class='container'>
+  <view class='conbox'>
+    <!-- 1 -->
+    <view class='oneb'>
+      <text>2018年12月充值VIP优惠活动!!!</text>
+    </view>
+    <!-- 2 -->
+    <view class='twob'>
+      <text class='two-1'>小袋助手</text>
+      <text class='two-2'>2018-11-28</text>
+    </view>
+    <!-- 3 -->
+    <view class='threeb'>
+      <!-- <text>小袋助手使用规则1</text>
+      <text style='word-wrap: break-word;word-break: keep-all;'>小袋助手使用规则1</text>
+      <text>小袋助手使用规则1</text>
+      <text>小袋助手使用规则1</text>
+      <text>小袋助手使用规则1</text> -->
+      <text>2018年12月1日至15日,充值VIP赠时长活动开始啦,赶快参加!</text>
+      <text>活动期间,充值一个月送5天,三个月送15天,半年送30天,一年送</text>
+      <text>两个月,充值越多送的越多,活动时间有限,先到先得!</text>
+    </view>
+  </view>
+</view>

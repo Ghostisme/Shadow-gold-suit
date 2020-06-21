@@ -1,0 +1,31 @@
+/* 使用规则内容样式 */
+.conbox{
+  /* display: flex; */
+  margin: 24rpx;
+}
+.oneb{
+  font-size: 30rpx;
+  color: rgb(51, 51, 51);
+  margin-bottom: 24rpx;
+}
+.twob{
+  font-size: 24rpx;
+  margin-bottom: 24rpx;
+}
+.two-1{
+  color: rgb(81, 86, 125);
+}
+.two-2{
+  color: rgb(153, 153, 153);
+  padding-left: 24rpx;
+}
+.threeb{
+  font-size: 24rpx;
+  color: rgb(102, 102, 102);
+  line-height: 60rpx;  
+}
+.threeb text{
+  display: block;
+  /* word-break: keep-all;
+  word-wrap: break-word;  */
+}

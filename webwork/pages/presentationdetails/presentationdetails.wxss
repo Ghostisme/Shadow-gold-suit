@@ -1,0 +1,86 @@
+/* 金额我要提现之提现明细样式 */
+/* 顶部显示样式 */
+.diyi{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+.first{
+  font-size: 24rpx;
+  margin-top: 52rpx;
+  margin-bottom: 22rpx;
+}
+.secondnum{
+  font-size: 48rpx;
+  margin-bottom: 52rpx;
+}
+.secondyuan{
+  font-size: 24rpx;
+  padding-left: 8rpx;
+}
+/* 明细组件样式 */
+.navtont{
+  font-size: 26rpx;
+  color: rgb(102, 102, 102);
+  margin-top: 14rpx;
+}
+.jiantou{
+  font-size: 30rpx;
+  margin-right: 24rpx;
+  padding-left: 4rpx;
+}
+/* 金额内容列表 */
+.box{
+  display: flex;
+  border-bottom: 2rpx solid rgb(224, 224, 224);
+}
+.left{
+  flex: 5;
+}
+.up{
+  margin-left: 24rpx;
+  margin-top: 32rpx;
+  margin-bottom: 10rpx;  
+}
+.up image{
+  width: 42rpx;
+  height: 42rpx;
+  padding-right: 8rpx;
+}
+.textcont{
+  font-size: 28rpx;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20rpx;
+  position: relative;
+  top: -12rpx;
+} 
+.textcontstr{
+  font-size: 24rpx;
+  color: rgb(153, 153, 153);
+  padding-left: 8rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+  top: -14rpx;
+}
+.down{
+  margin-left: 24rpx;
+  margin-bottom: 28rpx;
+  font-size: 24rpx;
+  color: rgb(126, 126, 126);
+}
+
+
+.right{
+  text-align: right;
+  margin-top: 32rpx;
+  margin-right: 24rpx;
+  margin-bottom: 28rpx;
+  color: rgb(102, 102, 102);
+}
+.top{
+  font-size: 30rpx;
+  padding-bottom: 20rpx;
+}
+.bottom{
+  font-size: 24rpx;
+}

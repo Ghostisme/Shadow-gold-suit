@@ -1,0 +1,58 @@
+<!--金额我要提现页-->
+
+<amount>
+  <view  slot="diyi" class='diyi'>
+    <text class='first'>累计提现</text>
+  </view>
+  <view slot="dier" class='diyi'>
+    <text class='secondnum'>75.85<text class='secondyuan'>元</text></text>
+  </view>
+  <view slot="disan" class='diyi'>
+    <text class='third'>查看提现明细</text>
+    <icon class="iconfont icon-youjiantou jiantou"></icon>
+  </view>
+</amount>
+<mumberinnav navtext="我要提现"></mumberinnav>
+<view class='container'>
+  <!-- 输入金额 -->
+  <view class='inputbox'>
+    <text>¥</text>
+    <input type='nummer' class='inputnum' placeholder='请输入提现金额' placeholder-class="place-holder"></input>
+  </view>
+  <!-- 分隔线 -->
+  <view class='linenav'></view>
+  <!-- 提现方式 -->
+  <view class='cash'>
+    <image src='image/wechat.png'></image>
+    <text>微信提现</text>    
+    <icon type="success" size="30" color="#d1d1d1"/>    
+  </view>
+  <view class='cash'>
+    <image src='image/alipay.png'></image>
+    <text>支付宝提现</text>    
+    <icon type="success" size="30" color="#00c800"/>    
+  </view>
+  <!-- 支付宝账号记忆 -->
+  <view class='alipaybox'>
+    <input type='text' placeholder='请输入支付宝账号' placeholder-class="place-holder"></input>
+    <checkbox></checkbox>
+    <text>记住支付宝账号</text>
+  </view>
+  <!-- 提交按钮 -->
+  <view class='sumbitbox'>
+    <button type="sumbit" bindtap="showDialog">立即提现</button>
+  </view>
+  <!-- 弹出层 -->
+  <view class="container">
+    <dialog id='dialog' 
+      title1='image/icon.png' 
+      title2='10s后可点击' 
+      content1='是否提现到以下支付宝账户' 
+      content2='ssssssZZZ@163.com'
+      cancelText='取消' 
+      confirm='谢谢你'
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent">
+    </dialog>
+  </view>
+</view>

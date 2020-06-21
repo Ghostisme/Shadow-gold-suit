@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mumberincontent": "../../components/hisoryquerycontent/hisoryquerycontent",
+    "mumberinnav":"../../components/mumberinnav/mumberinnav",
+    "tarbar-bottom": "../../components/tarbar-bottom/tarbar-bottom"
+  }
+}

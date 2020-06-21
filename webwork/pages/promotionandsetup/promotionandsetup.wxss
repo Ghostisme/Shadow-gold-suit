@@ -1,0 +1,283 @@
+/* ../../components/promotionandsetup/promotionandsetup.wxss */
+page{
+  background-color: #f2f2f2;
+}
+.jiantou-1{
+  color: rgb(255, 255, 255);
+  font-size: 52rpx;
+  position: relative;
+  top: -6rpx;
+}
+/* content样式 */
+
+.content{
+  /* display: flex; */
+  border:  2rpx solid rgb(255, 255, 255);
+  border-radius: 8rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8rpx 8rpx 4rpx rgba(0, 0, 0, 0.16);
+  margin: 10rpx 24rpx;
+  position: relative;
+  top: -40rpx;
+}
+.outline{
+  border-bottom:2rpx dashed rgba(230, 230, 230, 1);
+  width: 90%;
+  margin: 0 30rpx;
+}
+
+/* firbox样式 */
+
+.firbox{
+  display: flex;
+  width: 100%;
+  margin-left: 30rpx;
+  margin-top: 22rpx;
+  margin-bottom: 21rpx;
+}
+.firbox text{
+  font-size: 28rpx;
+  color: rgb(102, 102, 102);   
+}
+
+/* thibox */
+
+/* .thibox{
+  display: flex;
+} */
+
+/* topbox */
+
+.topbox{
+  display: block;
+}
+.leftbox{
+  /* float: left; */
+  /* margin-left: 30rpx;
+  margin-top: 40rpx; 
+  margin-right: 26rpx; */
+  display: inline;
+}
+.leftbox image{
+  width: 76rpx;
+  height: 36rpx;
+  display: inline-block;
+  margin: 30rpx;
+}
+.rightbox{
+  /* float: left; */
+  display: inline-block;
+}
+.rightbox-one{
+  margin-top: 30rpx;
+  width: 300rpx;
+}
+.rightbox-one text{
+  font-size: 24rpx;
+  color: rgb(45, 45, 45);
+}
+.rightbox-two{
+  width: 300rpx;
+  margin-bottom: 100rpx;
+}
+.rightbox-two text{
+  font-size: 24rpx;
+  color: rgb(153, 153, 153);
+}
+
+/* bottombox */
+
+.bottombox{
+  display: inline-flex;
+  justify-content: right;
+  position: relative;
+  right: 0rpx;
+  float: right;
+  margin-top: -120rpx;
+  margin-right: 10rpx;
+}
+.bottombox view{
+  border: 2rpx solid rgb(101, 166, 7);
+  border-radius: 30rpx;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(101, 166, 7);
+  font-size: 24rpx;
+  padding: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  /* float: right; */
+  margin: 30rpx;
+}
+
+/* fivbox */
+
+.left{
+  display: inline;
+  /* margin-left: 30rpx;
+  margin-right: 30rpx;
+  height: 80rpx; */
+}
+.left image{
+  width: 76rpx;
+  height: 36rpx;
+  display: inline-block;
+  margin: 30rpx;
+  position: relative;
+  top: -20rpx;
+}
+
+/* right */
+
+.right{
+  display: inline-block;  
+}
+.onebox{
+  /* display: inline-flex; */
+  margin-top: 30rpx;
+  width: 300rpx;
+}
+.onebox text{
+  font-size: 24rpx;
+  color: rgb(45, 45, 45);
+  position: relative;
+  top: -16rpx;
+  margin-right: 10rpx;
+}
+.onebox input{
+  display: inline-block;
+  /* border: 1rpx solid red; */
+  width: 100rpx;
+  font-size: 24rpx;
+}
+
+/* twobox */
+
+.twobox{
+  background-color: rgb(255, 235, 235);
+  color: rgb(228, 57, 60);
+  border: 1rpx solid rgb(228, 57, 60);
+  font-size: 24rpx;
+  display: inline-flex;
+  align-items: center;
+  padding: 4rpx;
+  position: relative;
+  top: -10rpx;
+  display: none;
+}
+.twobox image{
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.twobox text{
+  padding-right: 6rpx;
+}
+
+/* threebox */
+
+.threebox{
+  width: 300rpx;
+  margin-bottom: 100rpx;
+}
+.threebox text{
+  font-size: 24rpx;
+  color: rgb(153, 153, 153);
+  position: relative;
+  top: -12rpx;
+}
+
+/* bottom */
+
+.bottom{
+  display: inline-flex;
+  justify-content: right;
+  position: relative;
+  right: 0rpx;
+  float: right;
+  margin-top: -120rpx;
+  margin-right: 10rpx;
+}
+.leftbtn{
+  border: 2rpx solid rgb(147, 147, 147);
+  border-radius: 30rpx;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(76, 76, 76);
+  font-size: 24rpx;
+  padding: 20rpx 50rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  /* float: right; */
+  margin: 30rpx;
+  margin-right: 0;
+}
+.rightbtn{
+  border: 2rpx solid rgb(101, 166, 7);
+  border-radius: 30rpx;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(101, 166, 7);
+  font-size: 24rpx;
+  padding: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  /* float: right; */
+  margin: 30rpx;
+}
+
+/* sevbox */
+
+.sevbox{
+
+}
+.up{
+  /* display: flex; */
+  margin: 0 auto;
+  /* justify-items: center;
+  justify-content: center; */
+}
+.box-1{
+  display: flex;
+  /* margin: 0 auto; */
+  justify-items: center;
+  justify-content: center;
+  margin: 64rpx;
+}
+.zuo{
+  border: 1rpx solid rgb(101, 166, 7);
+  border-radius: 10rpx;
+  color: rgb(101, 166, 7);
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 50rpx;
+  padding: 0 40rpx;
+  margin-right: 32rpx;
+}
+.you{
+  border: 1rpx solid rgb(101, 166, 7);
+  border-radius: 10rpx;
+  color: rgb(101, 166, 7);
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 50rpx;
+  padding: 0 50rpx;
+  margin-left: 32rpx;
+}
+
+/* down */
+
+.down{
+  border:2rpx dashed green;
+  display: flex;
+  width: 77%;
+  justify-content: center;
+  margin: 0 auto;
+  height: 120rpx;
+  margin-bottom: 64rpx;
+}
+
+
+
+

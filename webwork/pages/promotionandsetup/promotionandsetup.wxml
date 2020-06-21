@@ -1,0 +1,101 @@
+<!-- 推广设置页 -->
+<view class='container'>
+  <!-- mumbernav -->
+  <mynavassembly>
+    <icon class="iconfont icon-youjiantou jiantou-1"></icon>
+  </mynavassembly>
+  <!-- content -->
+  <view class='content'>
+    <!-- firbox -->
+    <view class='firbox'>
+      <text>推广设置</text>
+    </view>
+    <!-- secbox -->
+    <view class='outline'></view>
+    <!-- thibox -->
+    <view class='thibox'>
+      <!-- topbox -->
+      <view class='topbox'>
+        <!-- leftbox -->
+        <view class='leftbox'>
+          <image src='image/standardedition.png'></image>
+        </view>
+        <!-- rightbox -->
+        <view class='rightbox'>
+          <view class='rightbox-one'>
+            <text>建议推广价:</text>
+            <text>¥</text>
+            <text>10.00</text>
+          </view>
+          <view class='rightbox-two'>
+            <text>成本价格:</text>
+            <text>¥</text>
+            <text>3.00</text>
+          </view>
+        </view>
+      </view>
+      <!-- bottombox -->
+      <view class='bottombox'>
+        <view>我要改价</view>
+      </view>
+    </view>
+    <!-- foubox -->
+    <view class='outline'></view>
+    <!-- fivbox -->
+    <view class='fivbox'>
+      <!-- top -->
+      <view class='top'>
+        <!-- left -->
+        <view class='left'>
+          <image src='image/professional.png'></image>
+        </view>
+        <!-- right -->
+        <view class='right'>
+          <!-- onebox -->
+          <view class='onebox'>
+            <text>推广建议价:</text>
+            <input type='text' class='textbox' height="12rpx"></input>
+          </view>
+          <!-- twobox -->
+          <view class='twobox'>
+            <image src='image/enjoin.png'></image>
+            <text>定价不能超过100元</text>
+          </view>
+          <!-- threebox -->
+          <view class='threebox'>
+            <text>成本价格:</text>
+            <text>¥</text>
+            <text>6.00</text>
+          </view>
+        </view>
+      </view>
+      <!-- bottom -->
+      <view class='bottom'>
+        <!-- leftbtn -->
+        <view class='leftbtn'>取消</view>
+        <!-- rightbtn -->
+        <view class='rightbtn'>确认修改</view>
+      </view>
+    </view>
+    <!-- sixbox -->
+    <view class='outline'></view>
+    <!-- sevbox -->
+    <view class='sevbox'>
+      <!-- up -->
+      <view class='up'>
+        <view class='box-1'>
+          <!-- zuo -->
+          <view class='zuo'>更新二维码</view>
+          <!-- you -->
+          <view class='you'>生成链接</view>  
+        </view>
+      </view>
+      <!-- down -->
+      <view class='down'></view>
+    </view>
+  </view>
+  <!-- bottomnav -->
+  <!-- <tabbar tabbar="{{tabbar}}"></tabbar> -->
+  <!-- <button bindtap='back'>回退</button> -->
+</view>
+

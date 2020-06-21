@@ -1,0 +1,66 @@
+<!-- leo -->
+<view class='container'>
+  <!-- backdoc -->
+  <view>
+    <!-- mybac -->
+    <mynavassembly>     
+      <icon class="iconfont icon-youjiantou jiantou-1"></icon>          
+    </mynavassembly>
+    <!-- mylist -->
+    <view class='mylist'>
+      <!-- firstlist -->
+      <view class='firstlist'>
+        <!-- recharge -->
+        <view class='recharge'>          
+          <image src='image/vectorintelligentobject.png'></image>
+          <text>会员充值</text>       
+          <!-- <text class='recharge-right'>></text> -->
+          <icon class="iconfont icon-youjiantou jiantou"></icon>          
+        </view>
+        <!-- setting -->
+        <view class='setting'>          
+          <image src='image/vectorintelligentobject1.png'></image>
+          <text>推广设置</text>
+          <!-- <text class='setting-right'>></text>    -->
+          <icon class="iconfont icon-youjiantou jiantou"></icon>         
+        </view>
+      </view>
+      <!-- secondlist -->
+      <view class='secondlist'>
+        <!-- payroll -->
+        <view class='payroll'>
+          <image src='image/vectorintelligentobject2.png'></image>
+          <text>工资单</text>
+        </view>
+        <!-- performanc -->
+        <view class='performanc'>
+          <image src='image/vectorintelligentobject7.png'></image>
+          <text>我的业绩</text>
+        </view>
+        <!-- query -->
+        <view class='query'>
+          <image src='image/vectorintelligentobject8.png'></image>
+          <text>历史查询</text>
+        </view>
+      </view>
+      <!-- thirdlist -->
+      <view class='thirdlist'>
+        <!-- notification -->
+        <view class='notification'>
+          <image src='image/vectorintelligentobject4@2x.png'></image>
+          <text>通知消息</text>
+        </view>
+        <!-- rules -->
+        <view class='rules'>
+          <image src='image/vectorintelligentobject5@2x.png'></image>
+          <text>使用规则</text>
+        </view>
+        <!-- service -->
+        <view class='service'>
+          <image src='image/vectorintelligentobject6@2x.png'></image>
+          <text>联系客服</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

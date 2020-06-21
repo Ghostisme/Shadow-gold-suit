@@ -1,0 +1,90 @@
+<!--会员中心工资单列表-->
+
+<view class='container'>
+  <view class='linenav'></view>
+  <!-- 工资单标题行 -->
+  <view class='content-nav'>
+    <view class='content-nav-left'>
+      <text>工资单</text>
+    </view>
+    <view class='content-nav-right'>      
+        <text class='you'>提现明细</text>
+        <icon class="iconfont icon-youjiantou jiantou-1"></icon>
+    </view>
+  </view>
+  <!-- 第二行时间 -->
+  <view class='content-center'>
+    <text class='xia'>2018年10月</text>
+    <icon class="iconfont icon-xiajiantou1 jianyou-2"></icon>
+  </view>
+  <!-- 动态获取的列表 -->
+  <view class='content-list'>
+    <!-- 列表事件 -->
+    <view class='timebox'>
+      <text>11:59</text>
+    </view>
+    <!-- 列表内容 -->
+    <view class='backimg'>
+      <!-- <image src='image/contentback.png' class="back"></image> -->
+      <!-- 里面的白背景盒子 -->
+      <view class='backboxfff'>
+        <!-- 第一块内容 -->
+        <view class='first'>
+          <view class='one-box'>
+            <view class='onedaytext'>
+              <text>2018年10月28日工资单</text>
+            </view>
+            <view class='twodaytext'>
+              <text>10月29日</text>
+            </view>
+          </view>
+          <view class='two-box'>
+            <view class='twobutton-1'>
+              <button type='button'>我要提现</button>
+            </view>
+            <view class='twobutton-2' style='display:none;'>
+              <button type='button'>已提现</button>
+            </view>
+          </view>
+        </view>
+        <!-- 分隔线 -->
+        <view class='line'></view>
+        <!-- 第二块内容 -->
+        <view class='second'>
+          <view class='secondbox'>
+            <view class='one'>
+              <text>查询总数(次)</text>
+            </view>
+            <view class='two'>
+              <text>100</text>
+            </view>
+          </view>
+          <view class='secondbox'>
+            <view class='one'>
+              <text>总收入(元)</text>
+            </view>
+            <view class='two'>
+              <text>1500</text>
+            </view>
+          </view>
+          <view class='secondbox'>
+            <view class='one'>
+              <text>平均收入(元)</text>
+            </view>
+            <view class='two'>
+              <text>15</text>
+            </view>
+          </view>
+        </view>
+        <!-- 分隔线 -->
+        <view class='line'></view>
+        <!-- 第三块内容 -->
+        <view class='third'>
+          <text class='lefttext'>详情</text>          
+          <icon class="iconfont icon-youjiantou righttext jiantou-3"></icon>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- end -->
+</view>

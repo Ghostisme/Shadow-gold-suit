@@ -1,0 +1,21 @@
+<!-- tarbar -->
+<view class='tarbar'>
+  <view class='chaxun'>
+    <image src="{{bottomicon1}}" bindtap='cha'></image>
+    <!-- <image src='../image/形状1.png'></image> -->
+    <!-- <view class='btmicon1' style='background:url(../image/查询图标1.png) no-repeat;'></view> -->
+    <text>查询</text>  
+  </view>
+  <view class='mumber'>
+    <image src='image/会员图标111.png'></image>
+    <!-- <image src='../image/会员图标.png'></image> -->
+    <!-- <view class='btmicon1' style='background:url(../image/会员图标111.png) no-repeat;'></view> -->
+    <text>会员</text>
+  </view>
+  <view class='my'>
+    <image src='image/我的图标1.png'></image>
+    <!-- <image src='../image/我的图标.png'></image> -->
+    <!-- <view class='btmicon1' style='background:url(../image/我的图标1.png) no-repeat;'></view> -->
+    <text>我的</text>
+  </view>
+</view>

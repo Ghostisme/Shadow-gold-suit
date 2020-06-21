@@ -1,0 +1,77 @@
+{
+  "pages": [  
+    "pages/index/index",
+   
+    
+    "pages/membershiprecharge/membershiprecharge",
+    "pages/mumber/mumber",
+    "pages/login/login",
+    
+    "pages/payroll/payroll",
+    "pages/payrolldetailed/payrolldetailed",
+    "pages/contactcustomerservice/contactcustomerservice",
+    "pages/historyquery/historyquery",
+    "pages/cashwithdrawal/cashwithdrawal",
+    "pages/promotionandsetup/promotionandsetup",
+    "pages/usagerule/usagerule",
+    "pages/presentationdetails/presentationdetails",
+    "pages/notificationmessage/notificationmessage",
+    "pages/notificationdetails/notificationdetails",
+    "pages/performanceenquiry/performanceenquiry",
+
+
+
+    "dia-log/dia-log"
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小袋助手",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+
+  },
+  "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/login/login",
+          "text": "查询",
+          "iconPath": "pages/image/inquiry.png",
+          "selectedIconPath": "pages/image/inquiryselect.png",
+          "color": "#000000",
+          "selectedColor":"#000000"
+        },
+        {
+          "pagePath": "pages/membershiprecharge/membershiprecharge",
+          "text": "会员",
+          "iconPath": "pages/image/mumber.png",
+          "selectedIconPath": "pages/image/mumberselect.png",
+          "color": "#000000",
+          "selectedColor": "#000000"
+        },
+        {
+          "pagePath":"pages/mumber/mumber",
+          "text":"我的",
+          "iconPath": "pages/image/my.png",
+          "selectedIconPath": "pages/image/myselect.png",
+          "color": "#000000",
+          "selectedColor": "#000000"
+        }
+      ]
+    }
+}

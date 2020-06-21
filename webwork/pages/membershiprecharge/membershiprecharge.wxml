@@ -1,0 +1,92 @@
+<!-- leo -->
+<view class='container'>
+  <view class='linenav'></view>
+  <!-- vipnav -->
+  <view class='vipnav'>
+    <!-- backimg -->
+    <view class='backimg' style="background-image:url('https://thumbnail10.baidupcs.com/thumbnail/b88e6f9667ec9fd40b4ead4406375bcd?fid=558243559-250528-680630049264791&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-HAqUMf096R9ohJx%2fv2mJ%2fCh0cGg%3d&expires=8h&chkbd=0&chkv=0&dp-logid=7550188317883753788&dp-callid=0&time=1542859200&size=c1920_u1080&quality=90&vuk=558243559&ft=image&autopolicy=1');">
+      <!-- firstline -->
+      <view class='firstline'>
+        <text>VIP会员</text>
+        <image src='image/vectorintelligentobject.png'></image>
+      </view>
+      <!-- secline -->
+      <view class='secline'>
+        <text>会员权益:自主定价,生成二维码和推广链接.</text>
+      </view>
+      <!-- thirline -->
+      <view class='thirline'>
+        <text>2018/10/19-2018/11/18</text>
+      </view>
+    </view>
+  </view>
+  <!-- vipcontent -->
+  <view>
+    <!-- firsconline -->
+    <view class='firsconline'>
+      <text>1、选择会员类型</text>
+    </view>
+    <!-- secconline -->
+    <view class='secconline'>
+      <!-- firbox -->
+      <view class='firbox'>
+        <!-- leftbox -->
+        <view class='leftbox'>
+          <view class='leftboxthi'>
+            <text class='on'>新用户首充多送5天</text>
+          </view>
+          <view>
+            <view class='leftboxfir'>
+              <text class='rmbtext'>¥</text>
+              <text class='lighttext'>300</text>
+              <text class='rmbtext'>/30天</text>
+            </view>
+            <view class='leftboxsec'>
+              <view class='outline'></view>
+              <text class='rmbtext'>续费7.8折</text>
+            </view>
+          </view>          
+        </view>        
+        <!-- rightbox -->
+        <view class='rightbox'>
+          <view class='leftboxthi'>
+            <text class='on'>季卡限时6折</text>
+          </view>
+          <view>
+            <view class='rightboxfir'>
+              <text class='rmbtext'>¥</text>
+              <text class='lighttext'>540</text>
+              <text class='rmbtext'>/90天</text>
+            </view>
+          </view>          
+        </view>
+      </view>
+      <!-- secbox -->
+      <view class='secbox'>
+        <!-- lefbox -->
+        <view class='lefbox'>
+          <view class='rightboxfir1'>
+            <text class='rmbtext'>¥</text>
+            <text class='lighttext'>1500</text>
+            <text class='rmbtext'>/180天</text>
+          </view>
+        </view>
+        <!-- rigbox -->
+        <view class='rigbox'>
+          <view class='rightboxfir1'>
+            <text class='rmbtext'>¥</text>
+            <text class='lighttext'>3200</text>
+            <text class='rmbtext'>/365天</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- thirline -->
+    <view class='thirline'>
+      <button bindtap='promptpayment'>立即付款</button>
+    </view>
+  </view>
+</view>
+<!-- <view class='backimg' style="background-image:url('http://127.0.0.1:60776/appservice/pages/membershiprecharge/image/backimg.png');"></view>
+<view class='backimg' style="background-image:url('image/backimg.png');"></view> -->
+

@@ -1,0 +1,69 @@
+/* mumber样式 */
+.mybac{
+  background: linear-gradient(to right, #6fc800, #5ea900);   
+  display: flex;
+}
+.mybac .head{
+  width: 102rpx;
+  height: 102rpx;
+  border-radius: 102rpx;
+  margin: auto 30rpx; 
+  position: relative;
+  top: -32rpx; 
+}
+.name{
+  text-align: left;
+  margin: auto 4rpx;
+  flex: 4;
+}
+.namefirst{
+  margin-bottom: -12rpx;
+  margin-top: 24rpx;
+}
+.namefirst image{
+  width: 50rpx;
+  height: 40rpx;
+  position: relative;
+  top: 4rpx;
+  padding-left: 4rpx;  
+}
+.namefirst text{
+  color: #ffffff;
+  font-size: 32rpx;
+}
+.namesecond{
+  margin-bottom: 22rpx;
+}
+.namesecond text{
+  color: #ffffff;
+  font-size: 24rpx;
+}
+.namethird{
+  background-color:rgba(0, 0, 0, 0.16);
+  width: 150rpx;
+  /* height: 50rpx; */
+  border-radius: 36rpx;
+  margin-bottom: 64rpx; 
+  line-height: 25rpx;
+  padding: 4rpx 4rpx 8rpx 24rpx;
+}
+.namethird text{
+  color: #ffffff;
+  font-size: 24rpx;
+  
+}
+/* code样式 */
+.code{
+  flex: 1;
+  margin: auto 0;
+  position: relative;
+  top: -14rpx;
+  padding-right: 24rpx;
+}
+.code image{
+  width: 52rpx;
+  height: 52rpx;
+}
+.code image{
+  color: #ffffff;
+}

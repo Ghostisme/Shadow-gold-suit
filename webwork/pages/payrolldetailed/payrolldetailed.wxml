@@ -1,0 +1,166 @@
+<!--会员中心工资单详细页-->
+
+<!-- 工作单表头 -->
+<mumberinnav navtext="工资单"></mumberinnav>
+<!-- 工资单内容 -->
+<view class='container'>
+  <!-- 背景图片盒子 -->
+  <view class='backimgbox'>
+    <!-- 第一部分 -->
+    <view class='boxincontent'>
+      <!-- 左侧icon -->
+      <image src='image/icon1.png'></image>
+      <!-- 左侧时间 -->
+      <text>2018年10月28日</text>
+      <!-- 右侧按钮 -->
+      <view class='btnbox'>我要提现</view>
+    </view>
+    <!-- 第二部分 -->
+    <view class='backimgline'></view>
+    <!-- 第三部分 -->
+    <view class='boxincontent'>
+      <!-- 左侧盒子 -->
+      <view class='left'>
+        <!-- 上 -->
+        <view class='left-top'>
+          <view>
+            <text>查询总数(次)</text>
+          </view>
+          <view>
+            <text>105</text>
+          </view>
+        </view>
+        <!-- 下 -->
+        <view class='left-down'>
+          <!-- 1 -->
+          <view class='left-one'>
+            <view>
+              <text>专业版</text>
+            </view>
+            <view>
+              <text>75</text>
+            </view>
+          </view>
+          <!-- 2 -->
+          <view class='left-two'>
+            <view>
+              <text>标准版</text>
+            </view>
+            <view>
+              <text>30</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 中间的分隔线 -->
+      <view class='linecontent'></view>
+      <!-- 右侧盒子 -->
+      <view class='right'>
+        <!-- 上 -->
+        <view class='right-top'>
+          <view>
+            <text>总收入(元)</text>
+          </view>
+          <view>
+            <text>1500</text>
+          </view>
+        </view>
+        <!-- 下 -->
+        <view class='right-down'>
+          <!-- 1 -->
+          <view class='right-one'>
+            <view>
+              <text>专业版</text>
+            </view>
+            <view>
+              <text>1000</text>
+            </view>
+          </view>
+          <!-- 2 -->
+          <view class='right-two'>
+            <view>
+              <text>标准版</text>
+            </view>
+            <view>
+              <text>500</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 工资明细表头 -->
+<mumberinnav navtext="工资明细">
+  <view class='rightbtnbox'>
+    <text>全部</text>
+    <icon class='iconfont icon-xiajiantou1 rightV'></icon>
+  </view>
+</mumberinnav>
+<!-- 工资明细详情列表 -->
+<view class='container'>
+  <!-- 列表盒子 -->
+  <view class='boxlist'>
+    <!-- 1 -->
+    <view class='first'>
+      <image src='image/professional.png'></image>
+    </view>
+    <!-- 2 -->
+    <view class='second'>
+      <text>12:05:49</text>
+    </view>
+    <!-- 3 -->
+    <view class='third'>
+      <text class='price'>+20</text>
+      <text class='company'>(元)</text>
+    </view>
+  </view>
+
+  <view class='boxlist'>
+    <!-- 1 -->
+    <view class='first'>
+      <image src='image/standardedition.png'></image>
+    </view>
+    <!-- 2 -->
+    <view class='second'>
+      <text>12:05:49</text>
+    </view>
+    <!-- 3 -->
+    <view class='third'>
+      <text class='price'>+12</text>
+      <text class='company'>(元)</text>
+    </view>
+  </view>
+
+  <view class='boxlist'>
+    <!-- 1 -->
+    <view class='first'>
+      <image src='image/professional.png'></image>
+    </view>
+    <!-- 2 -->
+    <view class='second'>
+      <text>12:05:49</text>
+    </view>
+    <!-- 3 -->
+    <view class='third'>
+      <text class='price'>+18</text>
+      <text class='company'>(元)</text>
+    </view>
+  </view>
+
+  <view class='boxlist'>
+    <!-- 1 -->
+    <view class='first'>
+      <image src='image/standardedition.png'></image>
+    </view>
+    <!-- 2 -->
+    <view class='second'>
+      <text>12:05:49</text>
+    </view>
+    <!-- 3 -->
+    <view class='third'>
+      <text class='price'>+6</text>
+      <text class='company'>(元)</text>
+    </view>
+  </view>
+</view>

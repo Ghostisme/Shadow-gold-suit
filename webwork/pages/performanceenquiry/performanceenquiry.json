@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mumberinnav": "../../components/mumberinnav/mumberinnav",
+    "tarbar-bottom": "../../components/tarbar-bottom/tarbar-bottom",
+    "ff-canvas": "../../components/f2-canvas/f2-canvas"
+  }
+}

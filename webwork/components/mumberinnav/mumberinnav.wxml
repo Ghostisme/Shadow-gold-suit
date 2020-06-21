@@ -1,0 +1,13 @@
+<!--会员中心内的各表头-->
+<view class='container'>
+  <!-- 分割线 -->
+  <view class='linenav'></view>
+  <!-- 内容表头 -->
+  <view class='content-nav'>    
+      <text class='content-navtext'>{{navtext}}</text>
+      <slot></slot>
+  </view>  
+  <!-- 分隔线 -->
+  <view class='linebottom'></view>  
+</view>
+

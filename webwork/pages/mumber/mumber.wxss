@@ -1,0 +1,196 @@
+page{
+  background-color: #f2f2f2;
+}
+.jiantou-1{
+  color: rgb(255, 255, 255);
+  font-size: 52rpx;
+  position: relative;
+  top: -6rpx;
+}
+/* list整体样式 */
+.mylist{
+  background-color: #f2f2f2; 
+}
+.mylist image{
+  width: 44rpx;
+  height: 44rpx;
+}
+/* 第一栏style */
+.firstlist{
+  width: 702rpx;
+  height: 192rpx;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  position: relative;
+  top: -30rpx;
+  border-radius: 8rpx;
+  box-shadow: 8rpx 8rpx 4rpx rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+}
+.recharge{
+  width: 702rpx;
+  height: 96rpx;
+  border-bottom: 1rpx solid #f4f4f4;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; 
+}
+.recharge image{
+  margin-left: 24rpx;
+}
+.recharge text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+  flex: 5;
+}
+.jiantou{
+  /* font-weight: lighter; */
+  margin-right: 12rpx;
+  color: rgb(102, 102, 102);
+}
+.setting{
+  width: 702rpx;
+  height: 96rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.setting image{
+  margin-left: 24rpx;
+}
+.setting text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+  flex: 5;
+}
+
+/* 右侧箭头 */
+.recharge-right{
+  padding-left: 400rpx;
+}
+.setting-right{
+  padding-left: 400rpx;
+}
+/* 第二栏style */
+.secondlist{
+  width: 702rpx;
+  height: 288rpx;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  position: relative;
+  top: -30rpx;
+  border-radius: 8rpx;
+  box-shadow: 8rpx 8rpx 4rpx rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+}
+.payroll{
+  width: 702rpx;
+  height: 96rpx;
+  border-bottom: 1rpx solid #f4f4f4;
+  margin: 0 auto;  
+  display: flex;
+  align-items: center;
+}
+.payroll image{
+  margin-left: 24rpx;
+}
+.payroll text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+}
+.performanc{
+  width: 702rpx;
+  height: 96rpx;
+  border-bottom: 1rpx solid #f4f4f4;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;  
+}
+.performanc image{
+  margin-left: 24rpx;
+}
+.performanc text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+}
+.query{
+  width: 702rpx;
+  height: 96rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;  
+}
+.query image{
+  margin-left: 24rpx;
+}
+.query text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+}
+/* 第三栏style */
+.thirdlist{
+  width: 702rpx;
+  height: 288rpx;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+  position: relative;
+  top: -30rpx;
+  border-radius: 8rpx;
+  box-shadow: 8rpx 8rpx 4rpx rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+}
+.notification{
+  width: 702rpx;
+  height: 96rpx;
+  border-bottom: 1rpx solid #f4f4f4;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center; 
+}
+.notification image{
+  margin-left: 24rpx;
+}
+.notification text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+}
+.rules{
+  width: 702rpx;
+  height: 96rpx;
+  border-bottom: 1rpx solid #f4f4f4;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;  
+}
+.rules image{
+  margin-left: 24rpx;
+}
+.rules text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+}
+.service{
+  width: 702rpx;
+  height: 96rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;  
+}
+.service image{
+  margin-left: 24rpx;
+}
+.service text{
+  margin-left: 42rpx;
+  font-size: 24rpx;
+  color: #333333;
+}

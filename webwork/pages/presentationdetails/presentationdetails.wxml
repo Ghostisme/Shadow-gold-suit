@@ -1,0 +1,132 @@
+<!--我要提现之提现明细页-->
+<!-- 顶部金额显示背景组件 -->
+<amount>
+  <view  slot="diyi" class='diyi'>
+    <text class='first'>累计提现</text>
+  </view>
+  <view slot="dier" class='diyi'>
+    <text class='secondnum'>75.85<text class='secondyuan'>元</text></text>
+  </view>
+</amount>
+<!-- 明细组件 -->
+<mumberinnav navtext="提现明细">
+  <view class='navtont'>
+    <text>提现方式</text>
+    <icon class='iconfont icon-xiajiantou1 jiantou'></icon>
+  </view>
+</mumberinnav>
+<!-- 金额内容列表 -->
+<view class='container'>
+  <!-- 外层盒子 -->
+  <view class='box'>
+    <!-- 左 -->
+    <view class='left'>
+      <!-- 上 -->
+      <view class='up'>
+        <image src='image/alipay.png'></image>
+        <text class='textcont'>支付宝提现</text>
+        <text class='textcontstr'>(zhifubao111)</text>
+      </view>
+      <!-- 下 -->
+      <view class='down'>
+        <text>2018-09-10</text>
+        <text>20:55:21</text>
+      </view>
+    </view>
+    <!-- 右 -->
+    <view class='right'>
+      <!-- 上 -->
+      <view class='top'>
+        <text>-0.50</text>
+      </view>
+      <!-- 下 -->
+      <view class='bottom'>
+        <text>余额：23.35</text>
+      </view>
+    </view>    
+  </view>
+
+  <view class='box'>
+    <!-- 左 -->
+    <view class='left'>
+      <!-- 上 -->
+      <view class='up'>
+        <image src='image/wechat.png'></image>
+        <text class='textcont'>微信提现</text>
+        <!-- <text class='textcontstr'>(zhifubao111)</text> -->
+      </view>
+      <!-- 下 -->
+      <view class='down'>
+        <text>2018-09-10</text>
+        <text>20:55:21</text>
+      </view>
+    </view>
+    <!-- 右 -->
+    <view class='right'>
+      <!-- 上 -->
+      <view class='top'>
+        <text>-0.50</text>
+      </view>
+      <!-- 下 -->
+      <view class='bottom'>
+        <text>余额：23.35</text>
+      </view>
+    </view>    
+  </view>
+
+  <view class='box'>
+    <!-- 左 -->
+    <view class='left'>
+      <!-- 上 -->
+      <view class='up'>
+        <image src='image/alipay.png'></image>
+        <text class='textcont'>支付宝提现</text>
+        <text class='textcontstr'>(zhifubao111)</text>
+      </view>
+      <!-- 下 -->
+      <view class='down'>
+        <text>2018-09-10</text>
+        <text>20:55:21</text>
+      </view>
+    </view>
+    <!-- 右 -->
+    <view class='right'>
+      <!-- 上 -->
+      <view class='top'>
+        <text>-0.50</text>
+      </view>
+      <!-- 下 -->
+      <view class='bottom'>
+        <text>余额：23.35</text>
+      </view>
+    </view>    
+  </view>
+
+  <view class='box'>
+    <!-- 左 -->
+    <view class='left'>
+      <!-- 上 -->
+      <view class='up'>
+        <image src='image/wechat.png'></image>
+        <text class='textcont'>微信提现</text>
+        <!-- <text class='textcontstr'>(zhifubao111)</text> -->
+      </view>
+      <!-- 下 -->
+      <view class='down'>
+        <text>2018-09-10</text>
+        <text>20:55:21</text>
+      </view>
+    </view>
+    <!-- 右 -->
+    <view class='right'>
+      <!-- 上 -->
+      <view class='top'>
+        <text>-0.50</text>
+      </view>
+      <!-- 下 -->
+      <view class='bottom'>
+        <text>余额：23.35</text>
+      </view>
+    </view>    
+  </view>
+</view>
